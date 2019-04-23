@@ -4,7 +4,7 @@ LibrePDF/OpenPDF5 is an open source library for PDF files, maintained in accorda
 LibrePDF/OpenPDF5 is a maintained fork of iText 5, and is licensed as [AGPL][agpl] software.
 
 
-### [iText][itext] consists of several jars.
+### LibrePDF/OpenPDF5 consists of several jars.
 
 The main iText release contains:
 - ```itextpdf-x.y.z.jar```: the core library
