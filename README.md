@@ -1,6 +1,6 @@
 ## LibrePDF/OpenPDF5
 
-LibrePDF/OpenPDF5 is an open source library for PDF files, maintained in accordance with the AGPL license. LibrePDF/OpenPDF5 is a maintained fork of iText 5, and is licensed as [AGPL][agpl] software.
+OpenPDF5 is an open source library for PDF files, maintained in accordance with the AGPL license. OpenPDF5 is a maintained fork of iText 5, and is licensed as [AGPL][agpl] software.
 
 
 [![Join the chat at https://gitter.im/LibrePDF/OpenPDF](https://badges.gitter.im/LibrePDF/OpenPDF.svg)](https://gitter.im/LibrePDF/OpenPDF) [![Build Status](https://travis-ci.org/LibrePDF/OpenPDF.svg?branch=master)](https://travis-ci.org/LibrePDF/OpenPDF)  [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
