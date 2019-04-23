@@ -1,17 +1,6 @@
-### **PLEASE NOTE: iText5 is EOL, and has been replaced by [iText7][itext7]**
- 
-We HIGHLY recommend customers use iText7 for new projects, and to consider moving existing projects from iText5 to iText7 to benefit from the many improvements such as:
- 
-- HTML to PDF (PDF/UA) conversion
-- PDF Redaction
-- SVG support
-- Better language support: Indic, Thai, Khmer, Arabic, Hebrew. (Close-source addon)
-- PDF Debugging for your IDE
-- Data Extraction
-- Better continued support and bugfixes
-- More modular, extensible handling of your document workflow
-- Extra practical add-ons
-- Encryption, hashing & digital signatures
+## LibrePDF/itextpdf
+
+LibrePDF/itextpdf is an open source library for PDF files, maintained in accordance with the AGPL license.
 
 
 ### [iText][itext] consists of several jars.
