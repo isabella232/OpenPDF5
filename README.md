@@ -10,7 +10,7 @@ OpenPDF5 is an open source library for PDF files, maintained in accordance with 
 Release the hounds!  Please send all pull requests. Make sure that your contributions can be released with a AGPL license.
 
 
-### LibrePDF/OpenPDF5 consists of several jars.
+### OpenPDF5 consists of several jars.
 
 The main iText release contains:
 - ```itextpdf-x.y.z.jar```: the core library
@@ -18,10 +18,10 @@ The main iText release contains:
 - ```itext-pdfa-x.y.z.jar```: PDF/A-related functionality
 - ```xmlworker-x.y.z.jar```: XML (and HTML) functionality
 
-iText is hosted on https://github.com/LibrePDF/itextpdf
+iText is hosted on https://github.com/LibrePDF/OpenPDF5
 
 You can find the latest releases here:
-- https://github.com/LibrePDF/itextpdf/releases/latest
+- https://github.com/LibrePDF/OpenPDF5/releases/latest
 
 You can also [build iText from source][building].
 
