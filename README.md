@@ -1,7 +1,7 @@
-## LibrePDF/itextpdf
+## LibrePDF/OpenPDF5
 
-LibrePDF/itextpdf is an open source library for PDF files, maintained in accordance with the AGPL license.
-LibrePDF/itextpdf is a maintained fork of iText 5, and is licensed as [AGPL][agpl] software.
+LibrePDF/OpenPDF5 is an open source library for PDF files, maintained in accordance with the AGPL license.
+LibrePDF/OpenPDF5 is a maintained fork of iText 5, and is licensed as [AGPL][agpl] software.
 
 
 ### [iText][itext] consists of several jars.
