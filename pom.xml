@@ -17,6 +17,11 @@
   <url>http://itextpdf.com</url>
   <inceptionYear>1998</inceptionYear>
 
+  <properties>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+
   <modules>
     <module>itext</module>
     <module>pdfa</module>
