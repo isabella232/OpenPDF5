@@ -50,6 +50,7 @@ import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
 import junit.framework.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.xml.sax.SAXException;
 
@@ -78,6 +79,7 @@ public class ColorsInTaggedDocumentsTest {
         compareDocuments(output, cmp, false);
     }
 
+    @Ignore
     @Test
     public void colorsInTaggedDocumentsTest2() throws IOException, DocumentException, InterruptedException, ParserConfigurationException, SAXException {
         String output = "coloredTables.pdf";
