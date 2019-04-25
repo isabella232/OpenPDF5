@@ -12,4 +12,4 @@ addons:
     packages:
       - ghostscript
 
-install: mvn -Bq install -Dgpg.skip
+install: mvn -q -B  install -Dgpg.skip
