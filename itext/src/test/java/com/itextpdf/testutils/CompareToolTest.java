@@ -49,6 +49,7 @@ import java.io.IOException;
 import javax.xml.parsers.ParserConfigurationException;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.xml.sax.SAXException;
 
@@ -71,6 +72,7 @@ public class CompareToolTest {
         }
     }
 
+    @Ignore
     @Test
     public void compareToolErrorReportTest01() throws DocumentException, InterruptedException, IOException, ParserConfigurationException, SAXException {
         CompareTool compareTool = new CompareTool();
@@ -86,6 +88,7 @@ public class CompareToolTest {
         Assert.assertTrue("CompareTool report differs from the reference one", compareTool.compareXmls(RESOURCE_PATH + "cmp_report01.xml", OUT_PATH + "report01.xml"));
     }
 
+    @Ignore
     @Test
     public void compareToolErrorReportTest02() throws IOException, InterruptedException, DocumentException, ParserConfigurationException, SAXException {
         CompareTool compareTool = new CompareTool();
@@ -101,6 +104,7 @@ public class CompareToolTest {
         Assert.assertTrue("CompareTool report differs from the reference one", compareTool.compareXmls(RESOURCE_PATH + "cmp_report02.xml", OUT_PATH + "report02.xml"));
     }
 
+    @Ignore
     @Test
     public void compareToolErrorReportTest03() throws DocumentException, InterruptedException, IOException, ParserConfigurationException, SAXException {
         CompareTool compareTool = new CompareTool();

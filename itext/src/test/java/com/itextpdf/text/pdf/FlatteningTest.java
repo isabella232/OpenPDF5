@@ -51,6 +51,7 @@ import com.itextpdf.text.Phrase;
 import com.itextpdf.text.Rectangle;
 import com.itextpdf.text.pdf.events.FieldPositioningEvents;
 import junit.framework.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.ByteArrayInputStream;
@@ -73,6 +74,7 @@ public class FlatteningTest {
     private static final String RESOURCES_FOLDER = "./src/test/resources/com/itextpdf/text/pdf/FlatteningTest/";
     private static final String OUTPUT_FOLDER = "./target/com/itextpdf/test/pdf/FlatteningTest/";
 
+    @Ignore
     @Test
     public void testFlatteningNewAppearances() throws InterruptedException, DocumentException, IOException {
         new File(OUTPUT_FOLDER).mkdirs();
@@ -132,6 +134,7 @@ public class FlatteningTest {
         }
     }
 
+    @Ignore
     @Test
     public void testFlattening() throws IOException, DocumentException, InterruptedException {
         final String INPUT_FOLDER = RESOURCES_FOLDER + "input/";
@@ -165,6 +168,7 @@ public class FlatteningTest {
         }
     }
 
+    @Ignore
     @Test
     public void testFlatteningGenerateAppearances1() throws IOException, DocumentException, InterruptedException {
 
@@ -180,6 +184,7 @@ public class FlatteningTest {
         }
     }
 
+    @Ignore
     @Test
     public void testFlatteningGenerateAppearances2() throws IOException, DocumentException, InterruptedException {
 
@@ -195,6 +200,7 @@ public class FlatteningTest {
         }
     }
 
+    @Ignore
     @Test
     public void testFlatteningGenerateAppearances3() throws IOException, DocumentException, InterruptedException {
 
@@ -210,6 +216,7 @@ public class FlatteningTest {
         }
     }
 
+    @Ignore
     @Test
     public void testFlatteningGenerateAppearances4() throws IOException, DocumentException, InterruptedException {
 
@@ -225,6 +232,7 @@ public class FlatteningTest {
         }
     }
 
+    @Ignore
     @Test
     public void testFlatteningGenerateAppearances5() throws IOException, DocumentException, InterruptedException {
 
@@ -240,6 +248,7 @@ public class FlatteningTest {
         }
     }
 
+    @Ignore
     @Test
     public void testFlatteningGenerateAppearances6() throws IOException, DocumentException, InterruptedException {
 
@@ -255,6 +264,7 @@ public class FlatteningTest {
         }
     }
 
+    @Ignore
     @Test
     public void testFlatteningGenerateAppearances7() throws IOException, DocumentException, InterruptedException {
 
