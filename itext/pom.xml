@@ -25,42 +25,17 @@
 
   <developers>
     <developer>
-      <id>itext</id>
-      <name>iText Software</name>
-      <email>info@itextpdf.com</email>
-      <url>http://www.itextpdf.com</url>
+      <id>OpenPDF5</id>
+      <name>OpenPDF5</name>
+      <url>https://github.com/librepdf/openpdf5</url>
     </developer>
   </developers>
 
-  <mailingLists>
-    <mailingList>
-      <name>iText on StackOverflow</name>
-      <subscribe>http://stackoverflow.com/questions/tagged/itext</subscribe>
-      <archive>http://stackoverflow.com/questions/tagged/itext</archive>
-      <otherArchives>
-        <otherArchive>http://news.gmane.org/gmane.comp.java.lib.itext.general</otherArchive>
-        <otherArchive>http://itext-general.2136553.n4.nabble.com/</otherArchive>
-        <otherArchive>http://www.junlu.com/2.html</otherArchive>
-        <otherArchive>http://sourceforge.net/mailarchive/forum.php?forum_id=3273</otherArchive>
-        <otherArchive>http://www.mail-archive.com/itext-questions%40lists.sourceforge.net/</otherArchive>
-      </otherArchives>
-    </mailingList>
-  </mailingLists>
 
   <scm>
     <connection>scm:git:git@github.com:itext/itextpdf.git</connection>
-    <url>https://github.com/itext/itextpdf</url>
+    <url>https://github.com/librepdf/openpdf5</url>
   </scm>
-
-  <issueManagement>
-    <system>jira</system>
-    <url>https://jira.itextsupport.com/</url>
-  </issueManagement>
-
-  <ciManagement>
-    <system>jenkins-ci</system>
-    <url>http://ci.itextsupport.com/</url>
-  </ciManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -344,16 +319,13 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.6.1</version>
+            <version>${maven.compiler.plugin.version}</version>
             <configuration>
               <source>${java.version}</source>
               <target>${java.version}</target>
-              <compilerArguments>
-                <bootclasspath>${java.bootclasspath}</bootclasspath>
-              </compilerArguments>
-              <compilerVersion>${java.version}</compilerVersion>
-              <fork>true</fork>
-              <executable>${java.home}/bin/javac</executable>
+              <compilerArgs>
+                <arg>-Xlint:unchecked</arg>
+              </compilerArgs>
             </configuration>
           </plugin>
         </plugins>
