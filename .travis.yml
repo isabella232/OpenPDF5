@@ -12,4 +12,7 @@ addons:
     packages:
       - ghostscript
 
+env:
+  - MAVEN_OPTS="-Dorg.slf4j.simpleLogger.defaultLogLevel=ERROR -Dorg.slf4j.simpleLogger.defaultLogLevel=warn"
+
 install: mvn -q -B  install -Dgpg.skip

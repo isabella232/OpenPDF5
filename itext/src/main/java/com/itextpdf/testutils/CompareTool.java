@@ -667,7 +667,7 @@ public class CompareTool {
     }
 
     protected String compareByContent(String outPath, String differenceImagePrefix, Map<Integer, List<Rectangle>> ignoredAreas) throws DocumentException, InterruptedException, IOException {
-        System.out.print("[itext] INFO  Comparing by content..........");
+        //System.out.print("[itext] INFO  Comparing by content..........");
         PdfReader outReader = new PdfReader(outPdf);
         outPages = new ArrayList<PdfDictionary>();
         outPagesRef = new ArrayList<RefKey>();
