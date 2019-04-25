@@ -6,4 +6,10 @@ jdk:
   - openjdk9
   - openjdk8
 
+
+addons:
+  apt:
+    packages:
+      - ghostscript
+
 install: mvn install -Dgpg.skip

@@ -12,13 +12,13 @@ Release the hounds!  Please send all pull requests. Make sure that your contribu
 
 ### OpenPDF5 consists of several jars.
 
-The main iText release contains:
+The main OpenPDF5 release contains:
 - ```itextpdf-x.y.z.jar```: the core library
 - ```itext-xtra-x.y.z.jar```: extra functionality (PDF 2!)
 - ```itext-pdfa-x.y.z.jar```: PDF/A-related functionality
 - ```xmlworker-x.y.z.jar```: XML (and HTML) functionality
 
-iText is hosted on https://github.com/LibrePDF/OpenPDF5
+OpenPDF5 is hosted on https://github.com/LibrePDF/OpenPDF5
 
 You can find the latest releases here:
 - https://github.com/LibrePDF/OpenPDF5/releases/latest
@@ -26,7 +26,7 @@ You can find the latest releases here:
 You can also [build iText from source][building].
 
 
-iText is licensed as [AGPL][agpl] software.
+OpenPDF5 is licensed as [AGPL][agpl] software.
 
 AGPL is a free / open source software license.
 

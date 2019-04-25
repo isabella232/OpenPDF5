@@ -7,14 +7,13 @@
   <version>5.5.14-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>iText</name>
+  <name>OpenPDF5</name>
   <description>A Free Java-PDF library</description>
-  <url>http://itextpdf.com</url>
-  <inceptionYear>1998</inceptionYear>
+  <url>https://github.com/librepdf/openpdf5</url>
 
   <properties>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
     <maven.compiler.plugin.version>3.8.0</maven.compiler.plugin.version>
   </properties>
 
