@@ -107,6 +107,7 @@ public class FlatteningTest {
         }
     }
 
+    @Ignore
     @Test
     public void flattenGenerateAppearanceFalse01() throws IOException, DocumentException, InterruptedException {
 
