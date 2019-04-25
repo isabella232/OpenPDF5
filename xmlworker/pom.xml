@@ -5,12 +5,12 @@
   <parent>
     <groupId>com.github.librepdf</groupId>
     <artifactId>itext-parent</artifactId>
-    <version>5.5.14-SNAPSHOT</version>
+    <version>5.6.1-SNAPSHOT</version>
   </parent>
 
   <groupId>com.github.librepdf</groupId>
   <artifactId>xmlworker</artifactId>
-  <version>5.5.14-SNAPSHOT</version>
+  <version>5.6.1-SNAPSHOT</version>
 
   <name>iText XML Worker</name>
   <description>Parses XML to PDF, with CSS support, using iText</description>

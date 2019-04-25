@@ -5,12 +5,12 @@
   <parent>
     <groupId>com.github.librepdf</groupId>
     <artifactId>itext-parent</artifactId>
-    <version>5.5.14-SNAPSHOT</version>
+    <version>5.6.1-SNAPSHOT</version>
   </parent>
 
   <artifactId>itext-pdfa</artifactId>
   <groupId>com.github.librepdf</groupId>
-  <version>5.5.14-SNAPSHOT</version>
+  <version>5.6.1-SNAPSHOT</version>
 
   <name>iText PDF/A</name>
   <description>iText ISO-19005 Module</description>

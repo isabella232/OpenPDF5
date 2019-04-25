@@ -5,12 +5,12 @@
   <parent>
     <groupId>com.github.librepdf</groupId>
     <artifactId>itext-parent</artifactId>
-    <version>5.5.14-SNAPSHOT</version>
+    <version>5.6.1-SNAPSHOT</version>
   </parent>
 
   <artifactId>itext-xtra</artifactId>
   <groupId>com.github.librepdf</groupId>
-  <version>5.5.14-SNAPSHOT</version>
+  <version>5.6.1-SNAPSHOT</version>
 
   <name>iText Xtra</name>
   <description>iText Xtra, part of iText a Free Java-PDF library</description>
