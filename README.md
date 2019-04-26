@@ -6,6 +6,10 @@ OpenPDF5 is an open source library for PDF files, maintained in accordance with 
 <a href="https://patreon.com/openpdf" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-green.svg" alt="Patreon donate button" /></a> [![Join the chat at https://gitter.im/LibrePDF/OpenPDF](https://badges.gitter.im/LibrePDF/OpenPDF.svg)](https://gitter.im/LibrePDF/OpenPDF) [![Build Status](https://travis-ci.org/LibrePDF/OpenPDF5.svg?branch=develop)](https://travis-ci.org/LibrePDF/OpenPDF5)  [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 
+## Latest version ##
+The latest release of OpenPDF5 is version OpenPDF5 5.6.1. It can be found here:
+https://github.com/LibrePDF/OpenPDF5/releases/latest
+
 ## Contributing ##
 Release the hounds!  Please send all pull requests. Make sure that your contributions can be released with a AGPL license.
 
