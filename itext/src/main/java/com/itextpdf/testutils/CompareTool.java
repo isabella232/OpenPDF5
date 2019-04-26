@@ -711,7 +711,7 @@ public class CompareTool {
         }
 
         if (equalPages.size() == cmpPages.size() && compareResult.isOk()) {
-            //System.out.println("OK");
+            System.out.println("OK");
             System.out.flush();
             return null;
         } else {
@@ -1227,10 +1227,10 @@ public class CompareTool {
         outReader.close();
         cmpReader.close();
 
-        /*if (message == null)
+        if (message == null)
             System.out.println("OK");
         else
-            System.out.println("Fail");*/
+            System.out.println("Fail");
         System.out.flush();
         return message;
     }
@@ -1292,10 +1292,10 @@ public class CompareTool {
         }
         outReader.close();
         cmpReader.close();
-        /*if (message == null)
+        if (message == null)
             System.out.println("OK");
         else
-            System.out.println("Fail");*/
+            System.out.println("Fail");
         System.out.flush();
         return message;
     }
@@ -1320,10 +1320,10 @@ public class CompareTool {
         }
         xmlOut1.close();
         xmlOut2.close();
-        /*if (message == null)
+        if (message == null)
             System.out.println("OK");
         else
-            System.out.println("Fail");*/
+            System.out.println("Fail");
         System.out.flush();
         return message;
     }
