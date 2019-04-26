@@ -7,7 +7,8 @@ OpenPDF5 is an open source library for PDF files, maintained in accordance with 
 
 
 ## Latest version ##
-The latest release of OpenPDF5 is version OpenPDF5 5.6.1. It can be found here:
+The latest release of OpenPDF5 is version OpenPDF5 5.6.1. 
+OpenPDF5 can be found here:
 https://github.com/LibrePDF/OpenPDF5/releases/latest
 
 ## Contributing ##
