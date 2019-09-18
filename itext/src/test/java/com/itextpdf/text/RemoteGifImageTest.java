@@ -49,6 +49,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class RemoteGifImageTest {
@@ -67,6 +68,7 @@ public class RemoteGifImageTest {
     }
 
     @Test
+    @Ignore /* test ignored, because the above .gif file isn't available any more. skipping this test for now, since it is so fragile. */
     public void remoteGifTest() throws IOException, DocumentException {
         for (int i = 0; i < GIF_LOCATION.length; i++) {
             Document document = new Document();
